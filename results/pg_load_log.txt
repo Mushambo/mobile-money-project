@@ -1,0 +1,11 @@
+Timing is on.
+COPY 228000
+Time: 72.788 ms
+COPY 228600
+Time: 93.323 ms
+COPY 248000
+Time: 83.689 ms
+COPY 285600
+Time: 111.491 ms
+COPY 20003300
+Time: 12509.715 ms (00:12.510)

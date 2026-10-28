@@ -1,0 +1,834 @@
+{
+ "Q7-A-b4": {
+  "pg_path": {
+   "accounts": [
+    998,
+    8917,
+    16836,
+    24755
+   ],
+   "hops": [
+    [
+     1,
+     998,
+     8917,
+     20000001,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     8917,
+     16836,
+     20000002,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     16836,
+     24755,
+     20000003,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    998,
+    8917,
+    16836,
+    24755
+   ],
+   "hops": [
+    [
+     1,
+     998,
+     8917,
+     20000001,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     8917,
+     16836,
+     20000002,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     16836,
+     24755,
+     20000003,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20000001,
+    20000002,
+    20000003
+   ]
+  }
+ },
+ "Q7-A-b6": {
+  "pg_path": {
+   "accounts": [
+    998,
+    8917,
+    16836,
+    24755
+   ],
+   "hops": [
+    [
+     1,
+     998,
+     8917,
+     20000001,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     8917,
+     16836,
+     20000002,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     16836,
+     24755,
+     20000003,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    998,
+    8917,
+    16836,
+    24755
+   ],
+   "hops": [
+    [
+     1,
+     998,
+     8917,
+     20000001,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     8917,
+     16836,
+     20000002,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     16836,
+     24755,
+     20000003,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20000001,
+    20000002,
+    20000003
+   ]
+  }
+ },
+ "Q7-B-b6": {
+  "pg_path": {
+   "accounts": [
+    147228,
+    147793,
+    147197,
+    148101,
+    178904,
+    186823
+   ],
+   "hops": [
+    [
+     1,
+     147228,
+     147793,
+     4666377,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     147793,
+     147197,
+     5984599,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     147197,
+     148101,
+     6176316,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     148101,
+     178904,
+     8125262,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     178904,
+     186823,
+     20000096,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    147228,
+    155147,
+    163066,
+    170985,
+    178904,
+    186823
+   ],
+   "hops": [
+    [
+     1,
+     147228,
+     155147,
+     20000092,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     155147,
+     163066,
+     20000093,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     163066,
+     170985,
+     20000094,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     170985,
+     178904,
+     20000095,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     178904,
+     186823,
+     20000096,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20000092,
+    20000093,
+    20000094,
+    20000095,
+    20000096
+   ]
+  }
+ },
+ "Q7-C-b6": {
+  "pg_path": {
+   "accounts": [
+    206978,
+    214897,
+    222816,
+    230735,
+    238654,
+    6573
+   ],
+   "hops": [
+    [
+     1,
+     206978,
+     214897,
+     20000229,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     214897,
+     222816,
+     20000230,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     222816,
+     230735,
+     20000231,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     230735,
+     238654,
+     20000232,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     238654,
+     6573,
+     20000233,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    206978,
+    214897,
+    222816,
+    230735,
+    238654,
+    6573
+   ],
+   "hops": [
+    [
+     1,
+     206978,
+     214897,
+     20000229,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     214897,
+     222816,
+     20000230,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     222816,
+     230735,
+     20000231,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     230735,
+     238654,
+     20000232,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     238654,
+     6573,
+     20000233,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20000229,
+    20000230,
+    20000231,
+    20000232,
+    20000233
+   ]
+  }
+ },
+ "Q7-D-b4": {
+  "pg_path": {
+   "accounts": [
+    237998,
+    5917,
+    13836,
+    21755
+   ],
+   "hops": [
+    [
+     1,
+     237998,
+     5917,
+     20001651,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     5917,
+     13836,
+     20001652,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     13836,
+     21755,
+     20001653,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    237998,
+    5917,
+    13836,
+    21755
+   ],
+   "hops": [
+    [
+     1,
+     237998,
+     5917,
+     20001651,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     5917,
+     13836,
+     20001652,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     13836,
+     21755,
+     20001653,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20001651,
+    20001652,
+    20001653
+   ]
+  }
+ },
+ "Q7-D-b6": {
+  "pg_path": {
+   "accounts": [
+    237998,
+    5917,
+    13836,
+    21755
+   ],
+   "hops": [
+    [
+     1,
+     237998,
+     5917,
+     20001651,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     5917,
+     13836,
+     20001652,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     13836,
+     21755,
+     20001653,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    237998,
+    5917,
+    13836,
+    21755
+   ],
+   "hops": [
+    [
+     1,
+     237998,
+     5917,
+     20001651,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     5917,
+     13836,
+     20001652,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     13836,
+     21755,
+     20001653,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20001651,
+    20001652,
+    20001653
+   ]
+  }
+ },
+ "Q7-E-b6": {
+  "pg_path": {
+   "accounts": [
+    144228,
+    152147,
+    160066,
+    167985,
+    175904,
+    183823
+   ],
+   "hops": [
+    [
+     1,
+     144228,
+     152147,
+     20001742,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     152147,
+     160066,
+     20001743,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     160066,
+     167985,
+     20001744,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     167985,
+     175904,
+     20001745,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     175904,
+     183823,
+     20001746,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    144228,
+    152147,
+    160066,
+    167985,
+    175904,
+    183823
+   ],
+   "hops": [
+    [
+     1,
+     144228,
+     152147,
+     20001742,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     152147,
+     160066,
+     20001743,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     160066,
+     167985,
+     20001744,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     167985,
+     175904,
+     20001745,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     175904,
+     183823,
+     20001746,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20001742,
+    20001743,
+    20001744,
+    20001745,
+    20001746
+   ]
+  }
+ },
+ "Q7-F-b6": {
+  "pg_path": {
+   "accounts": [
+    203978,
+    211897,
+    219816,
+    227735,
+    235654,
+    3573
+   ],
+   "hops": [
+    [
+     1,
+     203978,
+     211897,
+     20001879,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     211897,
+     219816,
+     20001880,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     219816,
+     227735,
+     20001881,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     227735,
+     235654,
+     20001882,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     235654,
+     3573,
+     20001883,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true
+  },
+  "neo_path": {
+   "accounts": [
+    203978,
+    211897,
+    219816,
+    227735,
+    235654,
+    3573
+   ],
+   "hops": [
+    [
+     1,
+     203978,
+     211897,
+     20001879,
+     "person",
+     "person"
+    ],
+    [
+     2,
+     211897,
+     219816,
+     20001880,
+     "person",
+     "person"
+    ],
+    [
+     3,
+     219816,
+     227735,
+     20001881,
+     "person",
+     "person"
+    ],
+    [
+     4,
+     227735,
+     235654,
+     20001882,
+     "person",
+     "person"
+    ],
+    [
+     5,
+     235654,
+     3573,
+     20001883,
+     "person",
+     "person"
+    ]
+   ],
+   "length_ok": true,
+   "events_exist": true,
+   "all_person": true,
+   "contiguous": true,
+   "valid": true,
+   "transfer_ids": [
+    20001879,
+    20001880,
+    20001881,
+    20001882,
+    20001883
+   ]
+  }
+ }
+}

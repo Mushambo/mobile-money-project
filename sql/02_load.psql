@@ -1,0 +1,10 @@
+-- Section 2.2  Bulk load, parents first. Run from the PROJECT ROOT so the relative
+-- paths resolve (or replace data/ with your absolute CSV folder):
+--   psql -d mobile_money -f sql/02_load.psql
+-- \timing reports each file's load seconds.
+\timing on
+\copy customers       FROM 'data/customers.csv'       CSV HEADER
+\copy devices         FROM 'data/devices.csv'         CSV HEADER
+\copy accounts        FROM 'data/accounts.csv'        CSV HEADER
+\copy account_devices FROM 'data/account_devices.csv' CSV HEADER
+\copy transfers       FROM 'data/transfers.csv'       CSV HEADER

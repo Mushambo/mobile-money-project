@@ -1,0 +1,25 @@
+digraph G { rankdir=LR; node [shape=plain fontname="Helvetica" fontsize=10]; edge [fontname="Helvetica" fontsize=9 color="#555555"];
+customers [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="#336791"><font color="white"><b>customers</b></font></td></tr>
+<tr><td align="left" port="pk"><b>customer_id</b> INTEGER PK</td></tr><tr><td align="left">region TEXT</td></tr></table>>];
+accounts [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="#336791"><font color="white"><b>accounts</b></font></td></tr>
+<tr><td align="left" port="pk"><b>account_id</b> INTEGER PK</td></tr><tr><td align="left" port="fk">customer_id INTEGER FK</td></tr>
+<tr><td align="left">role TEXT (person|merchant|agent)</td></tr></table>>];
+devices [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="#336791"><font color="white"><b>devices</b></font></td></tr>
+<tr><td align="left" port="pk"><b>device_id</b> INTEGER PK</td></tr><tr><td align="left">access_type TEXT (handset|public_terminal)</td></tr></table>>];
+account_devices [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="#336791"><font color="white"><b>account_devices</b></font></td></tr>
+<tr><td align="left" port="a"><b>account_id</b> INTEGER PK, FK</td></tr><tr><td align="left" port="d"><b>device_id</b> INTEGER PK, FK</td></tr>
+<tr><td align="left">first_day SMALLINT (0-29)</td></tr><tr><td align="left">last_day SMALLINT (0-29)</td></tr>
+<tr><td align="left">observations INTEGER &gt; 0</td></tr></table>>];
+transfers [label=<<table border="0" cellborder="1" cellspacing="0" cellpadding="4">
+<tr><td bgcolor="#336791"><font color="white"><b>transfers</b></font></td></tr>
+<tr><td align="left"><b>transfer_id</b> BIGINT PK</td></tr><tr><td align="left" port="s">sender_id INTEGER FK</td></tr>
+<tr><td align="left" port="r">receiver_id INTEGER FK</td></tr><tr><td align="left">occurred_at BIGINT (epoch s)</td></tr>
+<tr><td align="left">amount_rwf INTEGER &gt; 0 (RWF)</td></tr></table>>];
+accounts:fk -> customers:pk [label="owned by (N:1)"];
+account_devices:a -> accounts:pk [label="N:1"]; account_devices:d -> devices:pk [label="N:1"];
+transfers:s -> accounts:pk [label="sender"]; transfers:r -> accounts:pk [label="receiver"];
+}

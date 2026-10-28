@@ -1,0 +1,110 @@
+{
+  "overlap": {
+    "rows": [
+      {
+        "account_id": 998,
+        "device_id": 998,
+        "first_day": 0,
+        "last_day": 29,
+        "observations": 39
+      },
+      {
+        "account_id": 220998,
+        "device_id": 998,
+        "first_day": 0,
+        "last_day": 29,
+        "observations": 25
+      }
+    ],
+    "overlap_start": 0,
+    "overlap_end": 29,
+    "overlaps": true
+  },
+  "chain_Q5": {
+    "transfers": [
+      {
+        "transfer_id": 20000001,
+        "sender_id": 998,
+        "receiver_id": 8917,
+        "occurred_at": 1788681600,
+        "amount_rwf": 200000,
+        "occurred_cat": "2026-09-06T10:00:00+02:00"
+      },
+      {
+        "transfer_id": 20000002,
+        "sender_id": 8917,
+        "receiver_id": 16836,
+        "occurred_at": 1788681640,
+        "amount_rwf": 196000,
+        "occurred_cat": "2026-09-06T10:00:40+02:00"
+      },
+      {
+        "transfer_id": 20000003,
+        "sender_id": 16836,
+        "receiver_id": 24755,
+        "occurred_at": 1788681680,
+        "amount_rwf": 192080,
+        "occurred_cat": "2026-09-06T10:01:20+02:00"
+      }
+    ],
+    "checks": {
+      "starts_at_review_account": true,
+      "first_in_hour": true,
+      "linked_receiver_to_sender": true,
+      "strictly_increasing_time": true,
+      "amount_rule_90_105": true,
+      "gaps_at_most_600s": true,
+      "four_distinct_accounts": true
+    },
+    "all_pass": true
+  },
+  "cycle_Q6": {
+    "transfers": [
+      {
+        "transfer_id": 20000001,
+        "sender_id": 998,
+        "receiver_id": 8917,
+        "occurred_at": 1788681600,
+        "amount_rwf": 200000,
+        "occurred_cat": "2026-09-06T10:00:00+02:00"
+      },
+      {
+        "transfer_id": 20000002,
+        "sender_id": 8917,
+        "receiver_id": 16836,
+        "occurred_at": 1788681640,
+        "amount_rwf": 196000,
+        "occurred_cat": "2026-09-06T10:00:40+02:00"
+      },
+      {
+        "transfer_id": 20000003,
+        "sender_id": 16836,
+        "receiver_id": 24755,
+        "occurred_at": 1788681680,
+        "amount_rwf": 192080,
+        "occurred_cat": "2026-09-06T10:01:20+02:00"
+      },
+      {
+        "transfer_id": 20000004,
+        "sender_id": 24755,
+        "receiver_id": 998,
+        "occurred_at": 1788681720,
+        "amount_rwf": 188238,
+        "occurred_cat": "2026-09-06T10:02:00+02:00"
+      }
+    ],
+    "checks": {
+      "starts_at_review_account": true,
+      "first_in_hour": true,
+      "linked_receiver_to_sender": true,
+      "strictly_increasing_time": true,
+      "amount_rule_90_105": true,
+      "returns_to_start": true,
+      "no_earlier_return": true,
+      "all_in_hour": true,
+      "span_at_most_1800s": true,
+      "length_3_to_8": true
+    },
+    "all_pass": true
+  }
+}

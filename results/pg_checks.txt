@@ -1,0 +1,42 @@
+Africa/Kigali
+customers | 228000
+accounts | 248000
+devices | 228600
+account_devices | 285600
+transfers | 20003300
+20003300 | 1788235200 | 1790798399 | 2026-09-01 06:00:00+02 | 2026-09-30 21:59:59+02 | 231482327870
+agent | 2000
+merchant | 6000
+person | 240000
+customers | customers_pk | p | t | PRIMARY KEY (customer_id)
+customers | customers_region_chk | c | t | CHECK ((region = ANY (ARRAY['Kigali'::text, 'Northern'::text, 'Southern'::text, 'Eastern'::text, 'Western'::text])))
+accounts | accounts_customer_fk | f | t | FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+accounts | accounts_pk | p | t | PRIMARY KEY (account_id)
+accounts | accounts_role_chk | c | t | CHECK ((role = ANY (ARRAY['person'::text, 'merchant'::text, 'agent'::text])))
+devices | devices_pk | p | t | PRIMARY KEY (device_id)
+devices | devices_type_chk | c | t | CHECK ((access_type = ANY (ARRAY['handset'::text, 'public_terminal'::text])))
+account_devices | account_devices_pk | p | t | PRIMARY KEY (account_id, device_id)
+account_devices | ad_account_fk | f | t | FOREIGN KEY (account_id) REFERENCES accounts(account_id)
+account_devices | ad_days_chk | c | t | CHECK (((0 <= first_day) AND (first_day <= last_day) AND (last_day <= 29)))
+account_devices | ad_device_fk | f | t | FOREIGN KEY (device_id) REFERENCES devices(device_id)
+account_devices | ad_obs_chk | c | t | CHECK ((observations > 0))
+transfers | transfers_amount_chk | c | t | CHECK ((amount_rwf > 0))
+transfers | transfers_pk | p | t | PRIMARY KEY (transfer_id)
+transfers | transfers_receiver_fk | f | t | FOREIGN KEY (receiver_id) REFERENCES accounts(account_id)
+transfers | transfers_sender_fk | f | t | FOREIGN KEY (sender_id) REFERENCES accounts(account_id)
+account_devices | account_devices_pk | CREATE UNIQUE INDEX account_devices_pk ON public.account_devices USING btree (account_id, device_id)
+account_devices | ad_device_idx | CREATE INDEX ad_device_idx ON public.account_devices USING btree (device_id, account_id)
+accounts | accounts_customer_idx | CREATE INDEX accounts_customer_idx ON public.accounts USING btree (customer_id, account_id)
+accounts | accounts_pk | CREATE UNIQUE INDEX accounts_pk ON public.accounts USING btree (account_id)
+customers | customers_pk | CREATE UNIQUE INDEX customers_pk ON public.customers USING btree (customer_id)
+devices | devices_pk | CREATE UNIQUE INDEX devices_pk ON public.devices USING btree (device_id)
+transfers | transfers_pk | CREATE UNIQUE INDEX transfers_pk ON public.transfers USING btree (transfer_id)
+transfers | transfers_receiver_idx | CREATE INDEX transfers_receiver_idx ON public.transfers USING btree (receiver_id, occurred_at) INCLUDE (sender_id, amount_rwf, transfer_id)
+transfers | transfers_sender_idx | CREATE INDEX transfers_sender_idx ON public.transfers USING btree (sender_id, occurred_at) INCLUDE (receiver_id, amount_rwf, transfer_id)
+transfers | transfers_time_brin | CREATE INDEX transfers_time_brin ON public.transfers USING brin (occurred_at)
+account_devices | 0.0129 | 0.0129 | 0.0258
+accounts | 0.0113 | 0.0112 | 0.0225
+customers | 0.0103 | 0.0051 | 0.0154
+devices | 0.0103 | 0.0052 | 0.0154
+transfers | 1.2057 | 2.4335 | 3.6392
+3.7261

@@ -1,0 +1,21 @@
+PostgreSQL JOIN:
+  account_id    998
+  role          person
+  customer_id   998
+  region        Kigali
+  device_id     998
+  access_type   handset
+  first_day     0
+  last_day      29
+  observations  39
+  transfer_id   113540
+  receiver_id   240004
+  occurred_at   1788245009
+  occurred_cat  2026-09-01 08:43:29+02:00
+  amount_rwf    2100
+Repeated payments to the same receiver (would collapse into one edge):
+   (998, 1111, 9, 1788329021, 1790676072, 117700)
+   (998, 63, 7, 1789220913, 1790530795, 294800)
+   (998, 289, 7, 1788283857, 1790363070, 99000)
+   (998, 402, 6, 1788777592, 1790511461, 44400)
+   (998, 1224, 5, 1788605512, 1790498575, 37400)

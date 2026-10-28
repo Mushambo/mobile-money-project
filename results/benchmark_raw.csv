@@ -1,0 +1,737 @@
+variant,engine,case,question,set,params,run_type,run,start_cat,duration_ms,rows,status,correct
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:50:53.367+02:00,1447.291,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:50:54.814+02:00,0.76,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:50:54.815+02:00,0.567,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:50:54.816+02:00,0.606,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:50:54.816+02:00,0.778,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:50:54.817+02:00,1.65,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:50:54.819+02:00,0.727,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:50:54.820+02:00,1.125,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:50:54.821+02:00,1.128,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:50:54.823+02:00,0.744,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:50:54.823+02:00,1.069,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:50:54.824+02:00,0.594,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:50:54.825+02:00,0.435,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:50:54.826+02:00,0.467,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:50:54.826+02:00,0.718,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:50:54.827+02:00,0.395,1,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,1,2026-10-27T09:50:54.828+02:00,7807.023,30,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,2,2026-10-27T09:51:02.634+02:00,7943.532,30,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,3,2026-10-27T09:51:10.578+02:00,8714.102,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,1,2026-10-27T09:51:19.293+02:00,7881.585,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,2,2026-10-27T09:51:27.174+02:00,7858.72,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,3,2026-10-27T09:51:35.033+02:00,8360.355,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,4,2026-10-27T09:51:43.393+02:00,8182.95,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,5,2026-10-27T09:51:51.577+02:00,8349.457,30,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,1,2026-10-27T09:51:59.930+02:00,8.31,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,2,2026-10-27T09:51:59.939+02:00,1.898,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,3,2026-10-27T09:51:59.941+02:00,1.843,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,1,2026-10-27T09:51:59.942+02:00,1.974,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,2,2026-10-27T09:51:59.944+02:00,2.424,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,3,2026-10-27T09:51:59.946+02:00,1.266,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,4,2026-10-27T09:51:59.948+02:00,1.073,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,5,2026-10-27T09:51:59.949+02:00,0.917,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,1,2026-10-27T09:51:59.951+02:00,2.124,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,2,2026-10-27T09:51:59.954+02:00,2.08,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,3,2026-10-27T09:51:59.956+02:00,1.38,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,1,2026-10-27T09:51:59.958+02:00,0.821,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,2,2026-10-27T09:51:59.959+02:00,0.868,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,3,2026-10-27T09:51:59.960+02:00,0.979,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,4,2026-10-27T09:51:59.961+02:00,0.896,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,5,2026-10-27T09:51:59.962+02:00,1.112,9,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,1,2026-10-27T09:51:59.964+02:00,33.09,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,2,2026-10-27T09:51:59.998+02:00,4.639,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,3,2026-10-27T09:52:00.002+02:00,4.31,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,1,2026-10-27T09:52:00.006+02:00,4.502,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,2,2026-10-27T09:52:00.012+02:00,6.35,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,3,2026-10-27T09:52:00.017+02:00,6.726,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,4,2026-10-27T09:52:00.024+02:00,5.878,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,5,2026-10-27T09:52:00.031+02:00,4.497,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,1,2026-10-27T09:52:00.036+02:00,15.456,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,2,2026-10-27T09:52:00.052+02:00,4.193,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,3,2026-10-27T09:52:00.057+02:00,4.173,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,1,2026-10-27T09:52:00.061+02:00,5.888,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,2,2026-10-27T09:52:00.067+02:00,3.453,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,3,2026-10-27T09:52:00.071+02:00,2.899,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,4,2026-10-27T09:52:00.074+02:00,4.859,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,5,2026-10-27T09:52:00.078+02:00,4.619,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,1,2026-10-27T09:52:00.085+02:00,10.535,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,2,2026-10-27T09:52:00.095+02:00,9.423,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,3,2026-10-27T09:52:00.104+02:00,17.201,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,1,2026-10-27T09:52:00.122+02:00,6.1,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,2,2026-10-27T09:52:00.129+02:00,6.069,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,3,2026-10-27T09:52:00.134+02:00,6.05,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,4,2026-10-27T09:52:00.140+02:00,7.168,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,5,2026-10-27T09:52:00.147+02:00,5.209,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,1,2026-10-27T09:52:00.155+02:00,29.032,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,2,2026-10-27T09:52:00.184+02:00,14.452,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,3,2026-10-27T09:52:00.199+02:00,10.225,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,1,2026-10-27T09:52:00.209+02:00,16.867,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,2,2026-10-27T09:52:00.225+02:00,18.756,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,3,2026-10-27T09:52:00.245+02:00,21.057,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,4,2026-10-27T09:52:00.266+02:00,11.439,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,5,2026-10-27T09:52:00.278+02:00,10.219,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,1,2026-10-27T09:52:00.289+02:00,36.776,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,2,2026-10-27T09:52:00.326+02:00,2.171,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,3,2026-10-27T09:52:00.328+02:00,3.308,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,1,2026-10-27T09:52:00.332+02:00,2.268,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,2,2026-10-27T09:52:00.334+02:00,2.242,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,3,2026-10-27T09:52:00.336+02:00,1.645,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,4,2026-10-27T09:52:00.338+02:00,2.121,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,5,2026-10-27T09:52:00.340+02:00,1.638,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,1,2026-10-27T09:52:00.343+02:00,36.947,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,2,2026-10-27T09:52:00.379+02:00,4.561,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,3,2026-10-27T09:52:00.384+02:00,7.951,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,1,2026-10-27T09:52:00.392+02:00,5.831,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,2,2026-10-27T09:52:00.398+02:00,4.329,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,3,2026-10-27T09:52:00.402+02:00,4.332,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,4,2026-10-27T09:52:00.407+02:00,3.15,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,5,2026-10-27T09:52:00.410+02:00,4.78,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,1,2026-10-27T09:52:00.417+02:00,11.802,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,2,2026-10-27T09:52:00.429+02:00,19.561,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,3,2026-10-27T09:52:00.448+02:00,5.678,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,1,2026-10-27T09:52:00.454+02:00,4.761,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,2,2026-10-27T09:52:00.459+02:00,10.127,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,3,2026-10-27T09:52:00.469+02:00,5.466,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,4,2026-10-27T09:52:00.475+02:00,7.168,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,5,2026-10-27T09:52:00.481+02:00,7.648,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,1,2026-10-27T09:52:00.491+02:00,33.03,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,2,2026-10-27T09:52:00.524+02:00,11.702,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,3,2026-10-27T09:52:00.535+02:00,12.724,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,1,2026-10-27T09:52:00.548+02:00,11.966,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,2,2026-10-27T09:52:00.560+02:00,14.465,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,3,2026-10-27T09:52:00.574+02:00,24.418,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,4,2026-10-27T09:52:00.600+02:00,10.847,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,5,2026-10-27T09:52:00.610+02:00,16.55,5,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:52:00.628+02:00,9.375,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:52:00.637+02:00,3.023,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:52:00.641+02:00,2.759,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:52:00.643+02:00,2.77,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:52:00.646+02:00,3.18,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:52:00.649+02:00,2.903,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:52:00.652+02:00,2.047,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:52:00.654+02:00,1.56,1,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:52:00.656+02:00,3.297,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:52:00.659+02:00,2.317,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:52:00.662+02:00,3.955,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:52:00.666+02:00,1.539,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:52:00.668+02:00,1.526,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:52:00.669+02:00,1.001,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:52:00.670+02:00,1.066,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:52:00.672+02:00,1.135,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:52:00.673+02:00,6.128,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:52:00.680+02:00,2.619,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:52:00.683+02:00,2.688,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:52:00.685+02:00,1.769,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:52:00.687+02:00,1.528,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:52:00.689+02:00,2.471,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:52:00.691+02:00,1.717,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:52:00.693+02:00,2.521,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T09:52:00.698+02:00,4.179,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T09:52:00.702+02:00,2.346,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T09:52:00.704+02:00,2.243,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T09:52:00.707+02:00,1.31,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T09:52:00.708+02:00,0.834,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T09:52:00.709+02:00,1.411,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T09:52:00.710+02:00,1.447,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T09:52:00.713+02:00,1.02,0,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,1,2026-10-27T09:52:00.714+02:00,2116.42,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,2,2026-10-27T09:52:02.830+02:00,666.255,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,3,2026-10-27T09:52:03.497+02:00,762.042,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,1,2026-10-27T09:52:04.259+02:00,632.681,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,2,2026-10-27T09:52:04.891+02:00,682.337,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,3,2026-10-27T09:52:05.574+02:00,786.088,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,4,2026-10-27T09:52:06.360+02:00,791.612,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,5,2026-10-27T09:52:07.152+02:00,728.992,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,1,2026-10-27T09:52:07.881+02:00,102280.334,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,2,2026-10-27T09:53:50.162+02:00,55485.647,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,3,2026-10-27T09:54:45.647+02:00,59249.054,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,1,2026-10-27T09:55:44.896+02:00,58501.698,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,2,2026-10-27T09:56:43.399+02:00,,,timeout,
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,3,2026-10-27T09:57:43.425+02:00,59017.396,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,4,2026-10-27T09:58:42.442+02:00,55086.913,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,5,2026-10-27T09:59:37.529+02:00,,,timeout,
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,1,2026-10-27T10:00:37.552+02:00,640.762,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,2,2026-10-27T10:00:38.193+02:00,674.391,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,3,2026-10-27T10:00:38.867+02:00,548.68,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,1,2026-10-27T10:00:39.416+02:00,457.592,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,2,2026-10-27T10:00:39.874+02:00,679.602,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,3,2026-10-27T10:00:40.553+02:00,761.343,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,4,2026-10-27T10:00:41.315+02:00,781.877,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,5,2026-10-27T10:00:42.096+02:00,892.078,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,1,2026-10-27T10:00:42.990+02:00,72320.948,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,2,2026-10-27T10:01:55.311+02:00,62002.226,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,3,2026-10-27T10:02:57.313+02:00,59399.414,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,1,2026-10-27T10:03:56.713+02:00,,,timeout,
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,2,2026-10-27T10:04:56.729+02:00,,,timeout,
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,3,2026-10-27T10:05:56.808+02:00,,,timeout,
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,4,2026-10-27T10:06:56.875+02:00,,,timeout,
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,5,2026-10-27T10:07:56.944+02:00,,,timeout,
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:24:18.632+02:00,16225.067,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:24:34.858+02:00,31.008,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:24:34.889+02:00,17.454,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:24:34.907+02:00,17.729,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:24:34.925+02:00,14.898,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:24:34.939+02:00,11.573,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:24:34.952+02:00,21.0,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:24:34.972+02:00,12.948,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:24:34.988+02:00,57.69,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:24:35.046+02:00,11.017,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:24:35.057+02:00,37.414,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:24:35.094+02:00,12.99,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:24:35.107+02:00,10.99,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:24:35.118+02:00,11.762,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:24:35.130+02:00,12.131,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:24:35.142+02:00,14.343,1,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,1,2026-10-27T10:24:35.157+02:00,151267.641,30,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,2,2026-10-27T10:27:06.425+02:00,120494.013,30,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,3,2026-10-27T10:29:06.919+02:00,122804.527,30,ok,True
+neo,neo,Q2-month,Q2,month,{},measured,1,2026-10-27T10:31:09.724+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,2,2026-10-27T10:32:10.129+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,3,2026-10-27T10:33:12.568+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,4,2026-10-27T10:34:16.077+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,5,2026-10-27T10:35:18.575+02:00,,,timeout,
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,1,2026-10-27T10:36:22.085+02:00,2869.544,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,2,2026-10-27T10:36:24.955+02:00,17.662,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,3,2026-10-27T10:36:24.972+02:00,19.323,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,1,2026-10-27T10:36:24.992+02:00,14.393,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,2,2026-10-27T10:36:25.006+02:00,22.552,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,3,2026-10-27T10:36:25.029+02:00,20.624,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,4,2026-10-27T10:36:25.049+02:00,14.267,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,5,2026-10-27T10:36:25.064+02:00,16.813,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,1,2026-10-27T10:36:25.085+02:00,30.444,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,2,2026-10-27T10:36:25.115+02:00,14.758,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,3,2026-10-27T10:36:25.130+02:00,47.028,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,1,2026-10-27T10:36:25.177+02:00,12.441,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,2,2026-10-27T10:36:25.190+02:00,14.372,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,3,2026-10-27T10:36:25.204+02:00,12.696,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,4,2026-10-27T10:36:25.217+02:00,9.39,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,5,2026-10-27T10:36:25.226+02:00,13.196,9,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T10:36:25.242+02:00,529.363,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T10:36:25.771+02:00,17.488,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T10:36:25.788+02:00,14.488,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T10:36:25.803+02:00,14.254,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T10:36:25.817+02:00,15.066,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T10:36:25.832+02:00,11.285,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T10:36:25.844+02:00,9.958,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T10:36:25.854+02:00,9.272,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T10:36:25.864+02:00,264.578,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T10:36:26.129+02:00,16.889,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T10:36:26.145+02:00,12.934,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T10:36:26.159+02:00,16.68,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T10:36:26.175+02:00,12.015,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T10:36:26.187+02:00,11.743,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T10:36:26.199+02:00,15.858,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T10:36:26.215+02:00,18.078,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T10:36:26.234+02:00,280.087,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T10:36:26.514+02:00,12.123,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T10:36:26.526+02:00,10.588,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T10:36:26.537+02:00,14.592,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T10:36:26.552+02:00,10.691,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T10:36:26.563+02:00,14.642,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T10:36:26.577+02:00,10.913,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T10:36:26.588+02:00,9.817,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T10:36:26.599+02:00,266.677,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T10:36:26.865+02:00,13.199,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T10:36:26.879+02:00,14.483,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T10:36:26.893+02:00,19.106,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T10:36:26.912+02:00,14.262,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T10:36:26.927+02:00,14.649,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T10:36:26.942+02:00,13.606,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T10:36:26.956+02:00,15.212,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T10:36:26.972+02:00,78.185,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T10:36:27.051+02:00,9.069,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T10:36:27.060+02:00,26.991,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T10:36:27.087+02:00,12.632,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T10:36:27.100+02:00,8.543,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T10:36:27.108+02:00,12.561,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T10:36:27.120+02:00,9.776,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T10:36:27.131+02:00,7.431,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T10:36:27.139+02:00,26.308,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T10:36:27.165+02:00,12.748,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T10:36:27.178+02:00,21.679,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T10:36:27.199+02:00,12.874,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T10:36:27.213+02:00,9.131,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T10:36:27.222+02:00,9.567,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T10:36:27.232+02:00,13.563,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T10:36:27.245+02:00,9.614,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T10:36:27.256+02:00,28.925,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T10:36:27.284+02:00,9.647,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T10:36:27.294+02:00,26.181,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T10:36:27.320+02:00,9.772,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T10:36:27.330+02:00,8.759,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T10:36:27.338+02:00,12.75,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T10:36:27.352+02:00,9.285,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T10:36:27.361+02:00,8.947,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T10:36:27.371+02:00,62.156,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T10:36:27.433+02:00,10.557,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T10:36:27.443+02:00,26.735,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T10:36:27.470+02:00,13.245,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T10:36:27.484+02:00,10.353,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T10:36:27.494+02:00,12.287,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T10:36:27.507+02:00,13.096,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T10:36:27.519+02:00,11.431,5,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:36:27.532+02:00,763.838,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:36:28.296+02:00,8.934,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:36:28.305+02:00,8.58,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:36:28.314+02:00,6.976,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:36:28.321+02:00,7.681,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:36:28.328+02:00,6.487,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:36:28.335+02:00,9.395,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:36:28.344+02:00,6.805,1,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:36:28.352+02:00,9.057,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:36:28.361+02:00,6.509,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:36:28.368+02:00,38.614,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:36:28.406+02:00,7.422,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:36:28.414+02:00,8.151,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:36:28.422+02:00,6.732,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:36:28.429+02:00,7.716,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:36:28.436+02:00,7.95,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:36:28.445+02:00,705.401,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:36:29.150+02:00,12.565,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:36:29.162+02:00,9.643,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:36:29.173+02:00,9.438,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:36:29.182+02:00,8.231,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:36:29.191+02:00,12.068,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:36:29.202+02:00,13.934,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:36:29.216+02:00,14.551,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T10:36:29.231+02:00,7.568,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T10:36:29.240+02:00,8.917,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T10:36:29.248+02:00,26.988,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T10:36:29.276+02:00,7.533,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T10:36:29.283+02:00,7.641,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T10:36:29.290+02:00,6.942,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T10:36:29.298+02:00,8.189,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T10:36:29.306+02:00,7.443,0,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,1,2026-10-27T10:36:29.314+02:00,560.693,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,2,2026-10-27T10:36:29.875+02:00,22.198,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,3,2026-10-27T10:36:29.897+02:00,16.147,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,1,2026-10-27T10:36:29.913+02:00,12.914,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,2,2026-10-27T10:36:29.926+02:00,16.312,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,3,2026-10-27T10:36:29.943+02:00,13.057,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,4,2026-10-27T10:36:29.956+02:00,17.958,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,5,2026-10-27T10:36:29.974+02:00,14.68,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,1,2026-10-27T10:36:29.989+02:00,250.572,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,2,2026-10-27T10:36:30.240+02:00,17.131,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,3,2026-10-27T10:36:30.257+02:00,16.969,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,1,2026-10-27T10:36:30.274+02:00,22.379,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,2,2026-10-27T10:36:30.297+02:00,19.174,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,3,2026-10-27T10:36:30.315+02:00,18.078,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,4,2026-10-27T10:36:30.334+02:00,21.586,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,5,2026-10-27T10:36:30.355+02:00,21.481,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,1,2026-10-27T10:36:30.378+02:00,109.266,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,2,2026-10-27T10:36:30.487+02:00,12.877,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,3,2026-10-27T10:36:30.501+02:00,25.689,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,1,2026-10-27T10:36:30.526+02:00,16.388,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,2,2026-10-27T10:36:30.542+02:00,11.977,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,3,2026-10-27T10:36:30.555+02:00,14.466,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,4,2026-10-27T10:36:30.569+02:00,12.44,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,5,2026-10-27T10:36:30.582+02:00,14.556,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,1,2026-10-27T10:36:30.597+02:00,56.335,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,2,2026-10-27T10:36:30.654+02:00,16.083,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,3,2026-10-27T10:36:30.670+02:00,31.384,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,1,2026-10-27T10:36:30.701+02:00,18.206,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,2,2026-10-27T10:36:30.719+02:00,16.193,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,3,2026-10-27T10:36:30.736+02:00,16.065,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,4,2026-10-27T10:36:30.751+02:00,13.326,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,5,2026-10-27T10:36:30.765+02:00,17.538,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,1,2026-10-27T11:05:26.165+02:00,865.439,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,2,2026-10-27T11:05:27.032+02:00,8.412,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,3,2026-10-27T11:05:27.040+02:00,10.345,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,1,2026-10-27T11:05:27.051+02:00,9.77,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,2,2026-10-27T11:05:27.060+02:00,6.486,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,3,2026-10-27T11:05:27.067+02:00,14.304,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,4,2026-10-27T11:05:27.081+02:00,8.777,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,5,2026-10-27T11:05:27.090+02:00,9.159,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,1,2026-10-27T11:05:27.101+02:00,708.714,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,2,2026-10-27T11:05:27.810+02:00,78.313,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,3,2026-10-27T11:05:27.889+02:00,71.905,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,1,2026-10-27T11:05:27.960+02:00,72.592,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,2,2026-10-27T11:05:28.033+02:00,59.796,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,3,2026-10-27T11:05:28.093+02:00,58.916,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,4,2026-10-27T11:05:28.152+02:00,60.167,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,5,2026-10-27T11:05:28.212+02:00,66.518,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,1,2026-10-27T11:05:28.280+02:00,38.258,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,2,2026-10-27T11:05:28.318+02:00,6.806,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,3,2026-10-27T11:05:28.325+02:00,7.022,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,1,2026-10-27T11:05:28.332+02:00,6.331,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,2,2026-10-27T11:05:28.338+02:00,9.359,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,3,2026-10-27T11:05:28.348+02:00,10.836,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,4,2026-10-27T11:05:28.358+02:00,7.354,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,5,2026-10-27T11:05:28.365+02:00,9.183,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,1,2026-10-27T11:05:28.375+02:00,311.813,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,2,2026-10-27T11:05:28.688+02:00,73.398,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,3,2026-10-27T11:05:28.761+02:00,72.693,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,1,2026-10-27T11:05:28.833+02:00,81.195,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,2,2026-10-27T11:05:28.915+02:00,69.096,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,3,2026-10-27T11:05:28.984+02:00,60.505,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,4,2026-10-27T11:05:29.045+02:00,65.897,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,5,2026-10-27T11:05:29.111+02:00,63.974,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:40:10.631+02:00,543.794,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:40:11.176+02:00,1.198,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:40:11.177+02:00,1.102,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:40:11.178+02:00,1.193,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:40:11.180+02:00,1.232,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:40:11.181+02:00,3.45,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:40:11.184+02:00,2.248,1,ok,True
+pg,pg,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:40:11.187+02:00,1.327,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:40:11.189+02:00,1.881,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:40:11.190+02:00,1.378,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:40:11.192+02:00,1.931,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:40:11.194+02:00,1.622,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:40:11.196+02:00,1.728,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:40:11.197+02:00,1.681,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:40:11.199+02:00,1.384,1,ok,True
+pg,pg,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:40:11.201+02:00,0.99,1,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,1,2026-10-27T12:40:11.202+02:00,7626.274,30,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,2,2026-10-27T12:40:18.829+02:00,6709.892,30,ok,True
+pg,pg,Q2-month,Q2,month,{},warmup,3,2026-10-27T12:40:25.539+02:00,6790.52,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,1,2026-10-27T12:40:32.329+02:00,6423.071,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,2,2026-10-27T12:40:38.752+02:00,7329.028,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,3,2026-10-27T12:40:46.082+02:00,8029.684,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,4,2026-10-27T12:40:54.111+02:00,8314.743,30,ok,True
+pg,pg,Q2-month,Q2,month,{},measured,5,2026-10-27T12:41:02.426+02:00,7709.843,30,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,1,2026-10-27T12:41:10.139+02:00,10.872,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,2,2026-10-27T12:41:10.150+02:00,1.069,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",warmup,3,2026-10-27T12:41:10.151+02:00,1.016,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,1,2026-10-27T12:41:10.152+02:00,0.912,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,2,2026-10-27T12:41:10.153+02:00,1.027,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,3,2026-10-27T12:41:10.154+02:00,2.918,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,4,2026-10-27T12:41:10.157+02:00,1.616,9,ok,True
+pg,pg,Q3-B,Q3,B,"{""account"": 147228}",measured,5,2026-10-27T12:41:10.158+02:00,1.331,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,1,2026-10-27T12:41:10.161+02:00,4.002,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,2,2026-10-27T12:41:10.165+02:00,1.084,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",warmup,3,2026-10-27T12:41:10.166+02:00,0.822,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,1,2026-10-27T12:41:10.167+02:00,0.511,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,2,2026-10-27T12:41:10.167+02:00,0.438,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,3,2026-10-27T12:41:10.168+02:00,0.426,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,4,2026-10-27T12:41:10.168+02:00,0.409,9,ok,True
+pg,pg,Q3-E,Q3,E,"{""account"": 144228}",measured,5,2026-10-27T12:41:10.168+02:00,0.627,9,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,1,2026-10-27T12:41:10.171+02:00,38.528,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,2,2026-10-27T12:41:10.209+02:00,2.493,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",warmup,3,2026-10-27T12:41:10.212+02:00,4.085,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,1,2026-10-27T12:41:10.216+02:00,3.866,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,2,2026-10-27T12:41:10.220+02:00,3.002,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,3,2026-10-27T12:41:10.223+02:00,2.948,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,4,2026-10-27T12:41:10.227+02:00,2.192,5,ok,True
+pg,pg,Q4-B-d4,Q4,B,"{""account"": 147228, ""depth"": 4}",measured,5,2026-10-27T12:41:10.229+02:00,2.119,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,1,2026-10-27T12:41:10.232+02:00,10.624,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,2,2026-10-27T12:41:10.242+02:00,6.491,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",warmup,3,2026-10-27T12:41:10.249+02:00,5.138,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,1,2026-10-27T12:41:10.254+02:00,3.331,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,2,2026-10-27T12:41:10.257+02:00,2.546,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,3,2026-10-27T12:41:10.260+02:00,3.316,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,4,2026-10-27T12:41:10.264+02:00,4.705,5,ok,True
+pg,pg,Q4-B-d6,Q4,B,"{""account"": 147228, ""depth"": 6}",measured,5,2026-10-27T12:41:10.268+02:00,3.371,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,1,2026-10-27T12:41:10.272+02:00,12.774,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,2,2026-10-27T12:41:10.285+02:00,4.615,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",warmup,3,2026-10-27T12:41:10.290+02:00,6.616,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,1,2026-10-27T12:41:10.296+02:00,6.022,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,2,2026-10-27T12:41:10.302+02:00,6.723,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,3,2026-10-27T12:41:10.309+02:00,5.824,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,4,2026-10-27T12:41:10.315+02:00,4.71,5,ok,True
+pg,pg,Q4-B-d8,Q4,B,"{""account"": 147228, ""depth"": 8}",measured,5,2026-10-27T12:41:10.320+02:00,11.698,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,1,2026-10-27T12:41:10.332+02:00,27.159,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,2,2026-10-27T12:41:10.359+02:00,13.397,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",warmup,3,2026-10-27T12:41:10.373+02:00,10.884,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,1,2026-10-27T12:41:10.384+02:00,12.781,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,2,2026-10-27T12:41:10.397+02:00,12.692,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,3,2026-10-27T12:41:10.410+02:00,13.07,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,4,2026-10-27T12:41:10.423+02:00,10.298,5,ok,True
+pg,pg,Q4-B-d10,Q4,B,"{""account"": 147228, ""depth"": 10}",measured,5,2026-10-27T12:41:10.434+02:00,18.999,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,1,2026-10-27T12:41:10.453+02:00,41.619,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,2,2026-10-27T12:41:10.495+02:00,2.958,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",warmup,3,2026-10-27T12:41:10.498+02:00,2.846,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,1,2026-10-27T12:41:10.501+02:00,2.076,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,2,2026-10-27T12:41:10.503+02:00,2.305,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,3,2026-10-27T12:41:10.505+02:00,1.439,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,4,2026-10-27T12:41:10.507+02:00,1.277,5,ok,True
+pg,pg,Q4-E-d4,Q4,E,"{""account"": 144228, ""depth"": 4}",measured,5,2026-10-27T12:41:10.508+02:00,1.509,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,1,2026-10-27T12:41:10.510+02:00,26.833,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,2,2026-10-27T12:41:10.538+02:00,3.553,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",warmup,3,2026-10-27T12:41:10.542+02:00,5.606,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,1,2026-10-27T12:41:10.547+02:00,3.284,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,2,2026-10-27T12:41:10.551+02:00,2.631,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,3,2026-10-27T12:41:10.553+02:00,2.492,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,4,2026-10-27T12:41:10.555+02:00,4.988,5,ok,True
+pg,pg,Q4-E-d6,Q4,E,"{""account"": 144228, ""depth"": 6}",measured,5,2026-10-27T12:41:10.561+02:00,4.676,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,1,2026-10-27T12:41:10.568+02:00,17.309,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,2,2026-10-27T12:41:10.585+02:00,8.005,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",warmup,3,2026-10-27T12:41:10.592+02:00,7.996,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,1,2026-10-27T12:41:10.601+02:00,9.613,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,2,2026-10-27T12:41:10.611+02:00,5.598,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,3,2026-10-27T12:41:10.617+02:00,7.839,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,4,2026-10-27T12:41:10.624+02:00,8.626,5,ok,True
+pg,pg,Q4-E-d8,Q4,E,"{""account"": 144228, ""depth"": 8}",measured,5,2026-10-27T12:41:10.633+02:00,8.275,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,1,2026-10-27T12:41:10.642+02:00,31.43,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,2,2026-10-27T12:41:10.673+02:00,10.793,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",warmup,3,2026-10-27T12:41:10.685+02:00,9.762,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,1,2026-10-27T12:41:10.695+02:00,14.234,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,2,2026-10-27T12:41:10.709+02:00,12.167,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,3,2026-10-27T12:41:10.721+02:00,10.479,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,4,2026-10-27T12:41:10.731+02:00,11.027,5,ok,True
+pg,pg,Q4-E-d10,Q4,E,"{""account"": 144228, ""depth"": 10}",measured,5,2026-10-27T12:41:10.743+02:00,17.808,5,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:41:10.762+02:00,6.925,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:41:10.769+02:00,2.974,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:41:10.772+02:00,2.7,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:41:10.775+02:00,2.919,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:41:10.778+02:00,4.174,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:41:10.782+02:00,2.509,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:41:10.784+02:00,1.691,1,ok,True
+pg,pg,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:41:10.786+02:00,1.745,1,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:41:10.788+02:00,3.217,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:41:10.792+02:00,2.443,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:41:10.794+02:00,2.789,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:41:10.797+02:00,1.203,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:41:10.798+02:00,1.911,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:41:10.800+02:00,1.098,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:41:10.802+02:00,0.552,0,ok,True
+pg,pg,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:41:10.802+02:00,0.561,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:41:10.803+02:00,6.154,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:41:10.809+02:00,2.347,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:41:10.812+02:00,2.124,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:41:10.814+02:00,2.236,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:41:10.817+02:00,2.092,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:41:10.819+02:00,1.589,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:41:10.820+02:00,2.177,0,ok,True
+pg,pg,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:41:10.823+02:00,2.3,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T12:41:10.826+02:00,2.333,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T12:41:10.828+02:00,2.433,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T12:41:10.831+02:00,2.582,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T12:41:10.834+02:00,1.989,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T12:41:10.836+02:00,1.547,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T12:41:10.838+02:00,1.044,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T12:41:10.839+02:00,1.385,0,ok,True
+pg,pg,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T12:41:10.840+02:00,1.388,0,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,1,2026-10-27T12:41:10.842+02:00,1947.689,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,2,2026-10-27T12:41:12.790+02:00,644.232,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,3,2026-10-27T12:41:13.434+02:00,696.054,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,1,2026-10-27T12:41:14.130+02:00,625.601,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,2,2026-10-27T12:41:14.757+02:00,594.807,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,3,2026-10-27T12:41:15.351+02:00,602.781,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,4,2026-10-27T12:41:15.954+02:00,592.355,1,ok,True
+pg,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,5,2026-10-27T12:41:16.546+02:00,622.787,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,1,2026-10-27T12:41:17.170+02:00,98237.157,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,2,2026-10-27T12:42:55.407+02:00,54392.938,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,3,2026-10-27T12:43:49.800+02:00,55066.583,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,1,2026-10-27T12:44:44.867+02:00,52850.413,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,2,2026-10-27T12:45:37.717+02:00,53952.26,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,3,2026-10-27T12:46:31.670+02:00,54078.003,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,4,2026-10-27T12:47:25.748+02:00,53700.398,1,ok,True
+pg,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,5,2026-10-27T12:48:19.449+02:00,55931.882,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,1,2026-10-27T12:49:15.381+02:00,730.553,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,2,2026-10-27T12:49:16.111+02:00,698.085,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,3,2026-10-27T12:49:16.810+02:00,759.307,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,1,2026-10-27T12:49:17.569+02:00,697.209,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,2,2026-10-27T12:49:18.266+02:00,686.233,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,3,2026-10-27T12:49:18.953+02:00,577.594,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,4,2026-10-27T12:49:19.531+02:00,615.126,1,ok,True
+pg,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,5,2026-10-27T12:49:20.146+02:00,595.271,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,1,2026-10-27T12:49:20.741+02:00,59752.34,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,2,2026-10-27T12:50:20.494+02:00,59808.86,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,3,2026-10-27T12:51:20.303+02:00,59828.284,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,1,2026-10-27T12:52:20.131+02:00,54794.088,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,2,2026-10-27T12:53:14.925+02:00,55602.57,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,3,2026-10-27T12:54:10.528+02:00,55573.482,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,4,2026-10-27T12:55:06.102+02:00,55305.591,1,ok,True
+pg,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,5,2026-10-27T12:56:01.407+02:00,56642.581,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,1,2026-10-27T14:26:09.138+02:00,1212.333,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,2,2026-10-27T14:26:10.350+02:00,8.837,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",warmup,3,2026-10-27T14:26:10.359+02:00,7.44,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,1,2026-10-27T14:26:10.367+02:00,7.504,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,2,2026-10-27T14:26:10.374+02:00,5.602,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,3,2026-10-27T14:26:10.380+02:00,8.257,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,4,2026-10-27T14:26:10.387+02:00,5.664,1,ok,True
+pg-improved,pg,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 4}",measured,5,2026-10-27T14:26:10.394+02:00,5.063,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,1,2026-10-27T14:26:10.400+02:00,150.83,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,2,2026-10-27T14:26:10.550+02:00,59.371,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",warmup,3,2026-10-27T14:26:10.610+02:00,54.498,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,1,2026-10-27T14:26:10.665+02:00,66.662,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,2,2026-10-27T14:26:10.731+02:00,71.907,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,3,2026-10-27T14:26:10.804+02:00,76.506,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,4,2026-10-27T14:26:10.880+02:00,67.345,1,ok,True
+pg-improved,pg,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823, ""bound"": 6}",measured,5,2026-10-27T14:26:10.947+02:00,60.229,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,1,2026-10-27T14:26:11.008+02:00,13.433,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,2,2026-10-27T14:26:11.021+02:00,6.622,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",warmup,3,2026-10-27T14:26:11.028+02:00,5.764,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,1,2026-10-27T14:26:11.034+02:00,6.465,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,2,2026-10-27T14:26:11.040+02:00,5.264,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,3,2026-10-27T14:26:11.046+02:00,6.958,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,4,2026-10-27T14:26:11.052+02:00,5.59,1,ok,True
+pg-improved,pg,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 4}",measured,5,2026-10-27T14:26:11.059+02:00,7.846,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,1,2026-10-27T14:26:11.067+02:00,109.314,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,2,2026-10-27T14:26:11.177+02:00,59.665,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",warmup,3,2026-10-27T14:26:11.236+02:00,56.786,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,1,2026-10-27T14:26:11.293+02:00,52.601,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,2,2026-10-27T14:26:11.345+02:00,59.547,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,3,2026-10-27T14:26:11.405+02:00,55.329,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,4,2026-10-27T14:26:11.461+02:00,55.553,1,ok,True
+pg-improved,pg,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823, ""bound"": 6}",measured,5,2026-10-27T14:26:11.516+02:00,58.513,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:28:14.815+02:00,14629.593,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:28:29.445+02:00,25.529,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:28:29.471+02:00,22.802,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:28:29.493+02:00,13.499,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:28:29.507+02:00,20.174,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:28:29.527+02:00,12.398,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:28:29.540+02:00,16.132,1,ok,True
+neo,neo,Q1-B,Q1,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:28:29.556+02:00,15.633,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:28:29.573+02:00,69.985,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:28:29.643+02:00,11.504,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:28:29.654+02:00,36.728,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:28:29.690+02:00,8.714,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:28:29.699+02:00,8.954,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:28:29.708+02:00,8.952,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:28:29.717+02:00,14.124,1,ok,True
+neo,neo,Q1-E,Q1,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:28:29.732+02:00,12.401,1,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,1,2026-10-27T14:28:29.745+02:00,137999.592,30,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,2,2026-10-27T14:30:47.745+02:00,122596.121,30,ok,True
+neo,neo,Q2-month,Q2,month,{},warmup,3,2026-10-27T14:32:50.341+02:00,123653.93,30,ok,True
+neo,neo,Q2-month,Q2,month,{},measured,1,2026-10-27T14:34:53.995+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,2,2026-10-27T14:35:54.259+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,3,2026-10-27T14:36:57.731+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,4,2026-10-27T14:38:00.201+02:00,,,timeout,
+neo,neo,Q2-month,Q2,month,{},measured,5,2026-10-27T14:39:03.732+02:00,,,timeout,
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,1,2026-10-27T14:40:06.194+02:00,2959.613,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,2,2026-10-27T14:40:09.153+02:00,13.776,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",warmup,3,2026-10-27T14:40:09.167+02:00,17.682,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,1,2026-10-27T14:40:09.184+02:00,14.949,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,2,2026-10-27T14:40:09.200+02:00,13.973,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,3,2026-10-27T14:40:09.214+02:00,11.29,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,4,2026-10-27T14:40:09.225+02:00,11.425,9,ok,True
+neo,neo,Q3-B,Q3,B,"{""account"": 147228}",measured,5,2026-10-27T14:40:09.237+02:00,10.122,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,1,2026-10-27T14:40:09.248+02:00,19.12,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,2,2026-10-27T14:40:09.267+02:00,17.671,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",warmup,3,2026-10-27T14:40:09.285+02:00,35.35,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,1,2026-10-27T14:40:09.320+02:00,13.723,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,2,2026-10-27T14:40:09.334+02:00,11.575,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,3,2026-10-27T14:40:09.346+02:00,13.924,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,4,2026-10-27T14:40:09.360+02:00,9.837,9,ok,True
+neo,neo,Q3-E,Q3,E,"{""account"": 144228}",measured,5,2026-10-27T14:40:09.370+02:00,13.254,9,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T14:40:09.385+02:00,704.754,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T14:40:10.090+02:00,14.48,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T14:40:10.104+02:00,14.535,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T14:40:10.118+02:00,16.897,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T14:40:10.135+02:00,15.144,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T14:40:10.151+02:00,11.991,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T14:40:10.163+02:00,10.122,5,ok,True
+neo,neo,Q4-B-d4,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T14:40:10.173+02:00,9.864,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T14:40:10.185+02:00,284.617,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T14:40:10.469+02:00,14.853,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T14:40:10.484+02:00,12.983,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T14:40:10.498+02:00,13.153,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T14:40:10.511+02:00,13.194,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T14:40:10.524+02:00,14.64,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T14:40:10.538+02:00,21.2,5,ok,True
+neo,neo,Q4-B-d6,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T14:40:10.559+02:00,10.334,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T14:40:10.571+02:00,242.061,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T14:40:10.813+02:00,11.661,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T14:40:10.825+02:00,13.073,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T14:40:10.838+02:00,13.677,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T14:40:10.852+02:00,13.056,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T14:40:10.865+02:00,11.128,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T14:40:10.875+02:00,12.886,5,ok,True
+neo,neo,Q4-B-d8,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T14:40:10.889+02:00,7.605,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,1,2026-10-27T14:40:10.898+02:00,264.978,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,2,2026-10-27T14:40:11.162+02:00,10.614,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",warmup,3,2026-10-27T14:40:11.173+02:00,12.207,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,1,2026-10-27T14:40:11.185+02:00,17.454,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,2,2026-10-27T14:40:11.203+02:00,19.604,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,3,2026-10-27T14:40:11.222+02:00,15.297,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,4,2026-10-27T14:40:11.238+02:00,17.331,5,ok,True
+neo,neo,Q4-B-d10,Q4,B,"{""account"": 147228}",measured,5,2026-10-27T14:40:11.255+02:00,14.184,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T14:40:11.271+02:00,107.822,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T14:40:11.378+02:00,9.245,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T14:40:11.388+02:00,27.327,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T14:40:11.415+02:00,8.203,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T14:40:11.424+02:00,7.294,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T14:40:11.431+02:00,8.357,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T14:40:11.440+02:00,7.962,5,ok,True
+neo,neo,Q4-E-d4,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T14:40:11.448+02:00,8.602,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T14:40:11.457+02:00,18.085,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T14:40:11.475+02:00,11.3,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T14:40:11.486+02:00,18.509,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T14:40:11.505+02:00,8.424,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T14:40:11.513+02:00,8.808,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T14:40:11.521+02:00,10.523,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T14:40:11.533+02:00,8.6,5,ok,True
+neo,neo,Q4-E-d6,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T14:40:11.541+02:00,16.788,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T14:40:11.559+02:00,20.566,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T14:40:11.579+02:00,8.06,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T14:40:11.587+02:00,27.758,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T14:40:11.616+02:00,11.05,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T14:40:11.626+02:00,8.954,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T14:40:11.636+02:00,9.257,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T14:40:11.645+02:00,8.937,5,ok,True
+neo,neo,Q4-E-d8,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T14:40:11.654+02:00,7.188,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,1,2026-10-27T14:40:11.662+02:00,59.755,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,2,2026-10-27T14:40:11.722+02:00,11.782,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",warmup,3,2026-10-27T14:40:11.734+02:00,28.394,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,1,2026-10-27T14:40:11.762+02:00,11.749,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,2,2026-10-27T14:40:11.773+02:00,11.733,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,3,2026-10-27T14:40:11.785+02:00,13.045,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,4,2026-10-27T14:40:11.798+02:00,15.12,5,ok,True
+neo,neo,Q4-E-d10,Q4,E,"{""account"": 144228}",measured,5,2026-10-27T14:40:11.814+02:00,11.115,5,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:40:11.826+02:00,762.976,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:40:12.589+02:00,15.234,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:40:12.605+02:00,14.63,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:40:12.619+02:00,11.929,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:40:12.631+02:00,7.625,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:40:12.638+02:00,8.311,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:40:12.647+02:00,8.307,1,ok,True
+neo,neo,Q5-B,Q5,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:40:12.656+02:00,10.084,1,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:40:12.667+02:00,12.796,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:40:12.679+02:00,7.152,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:40:12.687+02:00,23.573,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:40:12.710+02:00,6.02,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:40:12.716+02:00,9.112,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:40:12.726+02:00,5.72,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:40:12.731+02:00,7.059,0,ok,True
+neo,neo,Q5-E,Q5,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:40:12.738+02:00,7.544,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:40:12.746+02:00,717.953,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:40:13.464+02:00,15.716,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:40:13.480+02:00,12.455,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:40:13.493+02:00,8.999,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:40:13.501+02:00,8.975,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:40:13.511+02:00,8.801,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:40:13.520+02:00,11.079,0,ok,True
+neo,neo,Q6-B,Q6,B,"{""account"": 147228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:40:13.531+02:00,9.346,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,1,2026-10-27T14:40:13.541+02:00,10.587,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,2,2026-10-27T14:40:13.551+02:00,14.401,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",warmup,3,2026-10-27T14:40:13.565+02:00,22.092,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,1,2026-10-27T14:40:13.588+02:00,7.736,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,2,2026-10-27T14:40:13.595+02:00,6.802,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,3,2026-10-27T14:40:13.602+02:00,9.043,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,4,2026-10-27T14:40:13.611+02:00,6.303,0,ok,True
+neo,neo,Q6-E,Q6,E,"{""account"": 144228, ""start"": 1789285500, ""end"": 1789289100}",measured,5,2026-10-27T14:40:13.618+02:00,8.353,0,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,1,2026-10-27T14:40:13.626+02:00,544.423,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,2,2026-10-27T14:40:14.171+02:00,16.257,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,3,2026-10-27T14:40:14.188+02:00,13.95,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,1,2026-10-27T14:40:14.202+02:00,13.81,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,2,2026-10-27T14:40:14.216+02:00,10.641,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,3,2026-10-27T14:40:14.226+02:00,14.751,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,4,2026-10-27T14:40:14.241+02:00,9.103,1,ok,True
+neo,neo,Q7-B-b4,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,5,2026-10-27T14:40:14.250+02:00,14.956,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,1,2026-10-27T14:40:14.265+02:00,217.051,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,2,2026-10-27T14:40:14.482+02:00,17.872,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",warmup,3,2026-10-27T14:40:14.500+02:00,18.336,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,1,2026-10-27T14:40:14.519+02:00,19.407,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,2,2026-10-27T14:40:14.538+02:00,18.902,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,3,2026-10-27T14:40:14.557+02:00,18.769,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,4,2026-10-27T14:40:14.576+02:00,11.992,1,ok,True
+neo,neo,Q7-B-b6,Q7,B,"{""account"": 147228, ""dest"": 186823}",measured,5,2026-10-27T14:40:14.588+02:00,16.421,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,1,2026-10-27T14:40:14.605+02:00,103.973,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,2,2026-10-27T14:40:14.710+02:00,12.706,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,3,2026-10-27T14:40:14.722+02:00,24.845,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,1,2026-10-27T14:40:14.747+02:00,13.803,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,2,2026-10-27T14:40:14.761+02:00,10.968,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,3,2026-10-27T14:40:14.772+02:00,9.851,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,4,2026-10-27T14:40:14.782+02:00,10.477,1,ok,True
+neo,neo,Q7-E-b4,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,5,2026-10-27T14:40:14.792+02:00,12.515,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,1,2026-10-27T14:40:14.805+02:00,58.166,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,2,2026-10-27T14:40:14.863+02:00,12.965,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",warmup,3,2026-10-27T14:40:14.876+02:00,23.501,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,1,2026-10-27T14:40:14.900+02:00,13.666,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,2,2026-10-27T14:40:14.913+02:00,14.681,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,3,2026-10-27T14:40:14.929+02:00,13.103,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,4,2026-10-27T14:40:14.942+02:00,14.167,1,ok,True
+neo,neo,Q7-E-b6,Q7,E,"{""account"": 144228, ""dest"": 183823}",measured,5,2026-10-27T14:40:14.956+02:00,15.872,1,ok,True

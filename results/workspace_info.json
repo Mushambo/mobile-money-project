@@ -1,0 +1,52 @@
+{
+  "recorded_at_cat": "2026-10-23T19:30:21+02:00",
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.10",
+  "cpu": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+  "logical_cpus": 8,
+  "physical_cpus": 4,
+  "ram_gb": 16.85,
+  "numpy": "2.4.4",
+  "psycopg": "3.3.1",
+  "postgresql": "PostgreSQL 16.15, compiled by Visual C++ build 1944, 64-bit",
+  "postgresql_settings": {
+    "effective_cache_size": "524288 8kB",
+    "maintenance_work_mem": "1048576 kB",
+    "max_connections": "100",
+    "max_parallel_workers_per_gather": "2",
+    "max_wal_size": "8192 MB",
+    "shared_buffers": "131072 8kB",
+    "TimeZone": "Africa/Kigali",
+    "work_mem": "65536 kB"
+  },
+  "postgresql_current_database": [
+    "mobile_money",
+    "Africa/Kigali"
+  ],
+  "neo4j_python_driver": "6.4.1",
+  "neo4j": [
+    [
+      "Neo4j Kernel",
+      [
+        "2026.10.1"
+      ],
+      "community"
+    ],
+    [
+      "Cypher",
+      [
+        "5",
+        "25"
+      ],
+      ""
+    ]
+  ],
+  "neo4j_settings": {
+    "db.transaction.timeout": "0s",
+    "dbms.memory.transaction.total.max": "2.75GiB",
+    "server.memory.heap.initial_size": null,
+    "server.memory.heap.max_size": null,
+    "server.memory.pagecache.size": null
+  },
+  "neo4j_database": "neo4j"
+}

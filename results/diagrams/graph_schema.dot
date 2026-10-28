@@ -1,0 +1,8 @@
+digraph G { rankdir=LR; node [shape=ellipse style=filled fontname="Helvetica" fontsize=10]; edge [fontname="Helvetica" fontsize=9];
+C [label="Customer\ncustomer_id:int\nregion:string" fillcolor="#ffd6a5"];
+A [label="Account\naccount_id:int\nrole:string" fillcolor="#bde0fe"];
+D [label="Device\ndevice_id:int\naccess_type:string" fillcolor="#caffbf"];
+C -> A [label="OWNS"];
+A -> D [label="USED_DEVICE\nfirst_day:int, last_day:int,\nobservations:int"];
+A -> A [label="TRANSFER (one per event)\ntransfer_id:long, occurred_at:long,\namount_rwf:int"];
+}

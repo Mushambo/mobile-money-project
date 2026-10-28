@@ -1,0 +1,7 @@
+digraph G { rankdir=LR; labelloc=t; label="Q7 set B: one shortest person-only route (5 transfers)"; fontname="Helvetica"; node [shape=box style="rounded,filled" fillcolor="#eef3fb" fontname="Helvetica" fontsize=10]; edge [fontname="Helvetica" fontsize=9];
+a147228 -> a147793 [label="e.g. #4666377\n07 Sep 21:59:34"];
+a147793 -> a147197 [label="e.g. #5984599\n09 Sep 21:37:49"];
+a147197 -> a148101 [label="e.g. #6176316\n10 Sep 10:13:53"];
+a148101 -> a178904 [label="e.g. #8125262\n13 Sep 09:00:22"];
+a178904 -> a186823 [label="e.g. #20000096\n13 Sep 10:02:57"];
+}

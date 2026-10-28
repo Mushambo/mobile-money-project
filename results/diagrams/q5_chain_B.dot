@@ -1,0 +1,9 @@
+digraph G { rankdir=LR; labelloc=t; label="Q5 set B: rapid onward chain"; fontname="Helvetica"; node [shape=box style="rounded,filled" fillcolor="#eef3fb" fontname="Helvetica" fontsize=10]; edge [fontname="Helvetica" fontsize=9];
+a147228 [label="Account 147228\nperson"];
+a155147 [label="Account 155147\nperson"];
+a163066 [label="Account 163066\nperson"];
+a170985 [label="Account 170985\nperson"];
+a147228 -> a155147 [label="#20000092\n13 Sep 10:00:17 CAT\n1,050,000 RWF"];
+a155147 -> a163066 [label="#20000093\n13 Sep 10:00:57 CAT\n1,029,000 RWF"];
+a163066 -> a170985 [label="#20000094\n13 Sep 10:01:37 CAT\n1,008,420 RWF"];
+}

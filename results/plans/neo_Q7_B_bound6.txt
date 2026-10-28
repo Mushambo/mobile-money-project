@@ -1,0 +1,16 @@
+MATCH (a:Account {account_id:$account}), (d:Account {account_id:$dest})
+OPTIONAL MATCH p = shortestPath((a)-[:TRANSFER*1..6]->(d))
+WHERE all(n IN nodes(p) WHERE n.role = 'person')
+RETURN length(p) AS min_transfers
+
++ProduceResults@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  min_transfers
+  +Projection@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  length(p) AS min_transfers
+    +Apply@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  
+      +CartesianProduct@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  
+        +NodeUniqueIndexSeek@neo4j  rows=1  dbHits=2  estRows=1  time_ms=?  UNIQUE a:Account(account_id) WHERE account_id = $account
+        +NodeUniqueIndexSeek@neo4j  rows=1  dbHits=2  estRows=1  time_ms=?  UNIQUE d:Account(account_id) WHERE account_id = $dest
+      +Optional@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  a, d
+        +ShortestPath@neo4j  rows=1  dbHits=6485  estRows=1  time_ms=?  p = (a)-[anon_0:TRANSFER*..6]->(d) WHERE all(n IN nodes(p) WHERE n.role = $autostring_0)
+          +Argument@neo4j  rows=1  dbHits=0  estRows=1  time_ms=?  a, d
+
+GlobalMemory=60176

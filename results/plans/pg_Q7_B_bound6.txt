@@ -1,0 +1,45 @@
+WITH RECURSIVE bfs(account_id, depth) AS (
+    SELECT a.account_id, 0 FROM accounts a
+    WHERE a.account_id = %(account)s AND a.role = 'person'
+  UNION
+    SELECT t.receiver_id, b.depth + 1
+    FROM bfs b
+    JOIN transfers t ON t.sender_id = b.account_id
+    JOIN accounts r  ON r.account_id = t.receiver_id AND r.role = 'person'
+    WHERE b.depth < %(bound)s
+)
+SELECT MIN(depth) AS min_transfers FROM bfs WHERE account_id = %(dest)s
+
+Aggregate  (cost=1793.71..1793.72 rows=1 width=4) (actual time=74915.102..74915.106 rows=1 loops=1)
+  Buffers: shared hit=60058563
+  CTE bfs
+    ->  Recursive Union  (cost=0.42..1723.90 rows=3101 width=8) (actual time=0.024..74655.338 rows=427955 loops=1)
+          Buffers: shared hit=60058563
+          ->  Index Scan using accounts_pk on accounts a  (cost=0.42..8.44 rows=1 width=8) (actual time=0.018..0.020 rows=1 loops=1)
+                Index Cond: (account_id = 147228)
+                Filter: (role = 'person'::text)
+                Buffers: shared hit=4
+          ->  Nested Loop  (cost=0.98..168.44 rows=310 width=8) (actual time=3.458..9940.504 rows=1454813 loops=7)
+                Buffers: shared hit=60058559
+                ->  Nested Loop  (cost=0.56..26.74 rows=320 width=8) (actual time=3.408..2454.598 rows=2081265 loops=7)
+                      Buffers: shared hit=1783127
+                      ->  WorkTable Scan on bfs b  (cost=0.00..0.22 rows=3 width=8) (actual time=2.928..25.803 rows=26851 loops=7)
+                            Filter: (depth < '6'::smallint)
+                            Rows Removed by Filter: 34285
+                      ->  Index Only Scan using transfers_sender_idx on transfers t  (cost=0.56..7.77 rows=107 width=8) (actual time=0.039..0.078 rows=78 loops=187957)
+                            Index Cond: (sender_id = b.account_id)
+                            Heap Fetches: 0
+                            Buffers: shared hit=1783127
+                ->  Index Scan using accounts_pk on accounts r  (cost=0.42..0.44 rows=1 width=4) (actual time=0.003..0.003 rows=1 loops=14568858)
+                      Index Cond: (account_id = t.receiver_id)
+                      Filter: (role = 'person'::text)
+                      Rows Removed by Filter: 0
+                      Buffers: shared hit=58275432
+  ->  CTE Scan on bfs  (cost=0.00..69.77 rows=16 width=4) (actual time=2250.182..74915.092 rows=2 loops=1)
+        Filter: (account_id = 186823)
+        Rows Removed by Filter: 427953
+        Buffers: shared hit=60058563
+Planning:
+  Buffers: shared hit=27
+Planning Time: 1.409 ms
+Execution Time: 74935.305 ms
